@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav h2 {
+    color: white;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav, .top-content {
+    background-color: #1F2937;
+}
+
+.top-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.left {
+    color: white;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.left h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-bottom: 0px;
+}
+
+.left p {
+    font-size: 18px;
+    color: #e5e7ebbd;
+    margin: 2px;
+}
+
+.left .sign-up {
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 10px 3px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.right {
+    background-color: #7b7c7e;
+    padding: 100px;
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.main-content {
+    background-color: white;
+    display: inline-block;
+    align-self: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.img-container {
+    display: flex;
+    gap: 40px
+}
+
+.empty-image {
+    display: inline-block;
+    background-color: transparent;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 80px;
+}
+
+.empty-image:hover {
+    background-color: #1F2937;
+    border: 4px solid #7b7c7e;
+}
+
+.quote-wrapper {
+    background-color: #e5e7ebbd ;
+    padding: 60px;
+    margin: 20px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937d7;
+}
+
+.quote {
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+.quote-name {
+    font-size: 18px;
+    font-weight: 1000;
+    font-style: normal;
+    color: #1F2937;
+    text-align: end;
+    position: relative;
+    right: 20%;
+    bottom: 50%;
+}
+
+.bottom-content {
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 800px;
+    padding: 20px 80px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: start;
+}
+
+.wrapper b {
+    font-weight: 100;
+}
+
+.sign-up2 {
+    align-self: end;
+    position: relative;
+    bottom: 25%;
+    right: 10%;
+    padding: 5px 25px;
+    margin: 10px 3px;
+    background-color:transparent;
+    color: white;
+    border: solid 2px white;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.wrapper h3, .wrapper b {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    line-height: 3px;
+}
+
+.wrapper h3 {
+    font-size: 20px;
+}
+
+.wrapper b {
+    color: rgba(255, 255, 255, 0.775);
+}
+
+.sign-up2:hover, .sign-up:hover {
+    background-color: white;
+    color: #3882F6;
+}
+
+.attribution {
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: #1F2937;
+}
